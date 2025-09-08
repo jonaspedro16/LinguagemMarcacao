@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Souls Tech</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: #000;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #00aaff;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #00aaff;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: url('banner.jpg') no-repeat center/cover;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background: #00aaff;
+      color: #fff;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #0088cc;
+    }
+
+    /* Produtos */
+    .produtos {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .produtos h3 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    /* Rodapé */
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Souls Tech</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Produtos</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>O melhor da tecnologia em um só lugar</h2>
+    <p>PCs, Consoles, TVs e tudo que você precisa.</p>
+    <a href="#produtos" class="btn">Ver Produtos</a>
+  </section>
+
+  <!-- Produtos -->
+  <section class="produtos" id="produtos">
+    <h3>Produtos em Destaque</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="pc.jpg" alt="PC Gamer">
+        <h4>PC Gamer</h4>
+        <p>Alta performance para jogos pesados.</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card">
+        <img src="console.jpg" alt="Console">
+        <h4>Console Next-Gen</h4>
+        <p>Jogos com gráficos incríveis.</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card">
+        <img src="tv.jpg" alt="TV 4K">
+        <h4>Smart TV 4K</h4>
+        <p>Imagem perfeita para seus filmes e jogos.</p>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Souls Tech - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
+
+

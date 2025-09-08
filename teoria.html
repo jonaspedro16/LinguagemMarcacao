@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Utilizando CSS interno -->
+    <style>
+        body{
+           background-color: blueviolet; 
+           color: aqua;
+           line-height: 1.6;
+        }H1{
+            color: black;
+        }
+        p{
+            font-size: smaller;
+        }
+    </style>
 </head>
 <body>
     <!--Titulos de nivel 1 ate nivel 6-->
@@ -35,5 +48,121 @@
           <img src="https://s1.zerochan.net/Jacopo.Bearzatti.600.22115063.jpg">
           <img src="./img/morgana.png" alt="morgana" title="morgana">
           <img src="./img/james sunderland.gif" alt="james sunderland" title="james sunderland">
+          <!--Para inserir emoji use o hexadecimal do site-->
+          <!--emojipedia e o codigo vai depois do &#x-->
+          <p>Paragrafo com carctere &Lt;a&gt; </p>
+          <p>Inserindo emoji</p>
+           <p>Inserindo emoji &#x1F480</p>
+
+           <!-- Tags para formatação e enfatização do texto-->
+            <b>Texto em negrito</b><br>
+            <strong>Texto Importante</strong>
+            <h1><i>H1 em italico</i></h1>
+            <em>Texto enfatizado</em>
+            <mark>Texto Marcado</mark>
+            <h3>Texto<small>menor</small></h3>
+            <del>Texto Excluido</del>
+            <ins>Texto Inserido</ins>
+            <p>4<sup>3</sup></p>
+            <p>3<sup>4</sup></p>
+            <u>Texto sublinhado</u>]
+            <!-- listas -->
+             <!-- listas ordenadas -->
+
+             <ol>
+                <li>Acordar</li>
+                <li>Tomar banho</li>
+                <li>Colocar uniforme</li>
+                <li>tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Ir para a escola, no horario</li>
+             </ol>
+             listas ordenads com numeros romanos
+              <ol type="i">
+                <li>Acordar</li>
+                <li>Tomar banho</li>
+                <li>Colocar uniforme</li>
+                <li>tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Ir para a escola, no horario</li>
+             </ol>
+
+             listas ordenadas em romanos com letras maiusculas 
+                           <ol type="I">
+                <li>Acordar</li>
+                <li>Tomar banho</li>
+                <li>Colocar uniforme</li>
+                <li>tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Ir para a escola, no horario</li>
+             </ol>
+             listas ordenadas em letras maiusculas
+                          <ol type="A">
+                <li>Acordar</li>
+                <li>Tomar banho</li>
+                <li>Colocar uniforme</li>
+                <li>tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Ir para a escola, no horario</li>
+             </ol>
+             Listas não ordenadas
+             <ul>
+                <li>Carvão</li>
+                <li>Carne</li>
+                <li>Bebidas</li>
+                <li>Arroz</li>
+             </ul>
+
+             Lista dentro de lista
+             <ul>
+                <li>Carne</li>
+                <ul>
+                    <li>Picanha</li>
+                     <li>Cupim</li>
+                      <li>Fraldinha</li>
+                </ul>
+             </ul>
+             Trabalhando com Tabelas
+             <!-- Criando uma nova tabela -->
+              <table border="1">
+                <!-- Criando uma nova linha -->
+                <tr >
+                    <!-- Th insere uma celula de cabecalho -->
+                     <th>Nome</th>
+                     <th>Idade</th>
+                     <th>Profissão</th>
+                </tr>
+                <tr>
+                    <!-- td cria dados na nova celula -->
+                     <td>Jonas</td>
+                     <td>16</td>
+                     <td>Alunor</td>
+                </tr>
+                <tr>
+                    <!-- td cria dados na nova celula -->
+                     <td>bell</td>
+                     <td>16</td>
+                     <td>DELL</td>
+                </tr>
+              </table>
+              Tabelas mescladas
+              <table border="1">
+               <thead>
+                <th>Nome</th>
+                <th co>Telefone</th>
+               </thead>
+               <tbody>
+                <tr>
+                <td rowspan="2">João Pedro</td>
+                <td>999999999</td>
+                </tr>
+                 <tr>
+                <td>Thiciane</td>
+                <td>999999999</td>
+                </tr>
+               </tbody>
+              </table>
+              <p Style="background-color: rgb(0, 0, 0); font-size: xx-large;color: rgb(255, 255, 255);">Css inline</p>
 </body>
+
 </html>
