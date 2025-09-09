@@ -1,0 +1,33 @@
+*{
+    margin: 10px;
+    padding:0%;
+}
+
+h1{
+    color: rgb(227, 16, 16);
+}
+.link{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+   
+}
+.imagem{
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+}
+
+.formulario{
+    background-color: crimson;
+    text-align: center;
+}
+
+.fformulario2{
+    background-color: rgb(193, 190, 191);
+    text-align: center;
+    
+}
